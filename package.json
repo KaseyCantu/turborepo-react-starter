@@ -1,0 +1,42 @@
+{
+  "name": "kasey-turbo",
+  "private": true,
+  "packageManager": "yarn@3.2.2",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=docs^... && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.22.0",
+    "@formatjs/cli": "^4.5.0",
+    "@kasey-turbo/eslint-config": "*",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "babel-plugin-formatjs": "^10.3.12",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-formatjs": "^2.19.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^26.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-turbo": "latest",
+    "prettier": "^2.5.1",
+    "turbo": "latest"
+  }
+}
