@@ -1,7 +1,0 @@
-{
-  "extends": "@kasey-turbo/tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules", ".turbo"],
-  "outDir": "dist",
-  "rootDir": "stories"
-}

@@ -1,0 +1,32 @@
+{
+  "name": "@kasey-turbo/web",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@3.2.2",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@kasey-turbo/ui-library": "*",
+    "eslint-config-next": "^12.2.5",
+    "next": "^12.2.5",
+    "next-compose-plugins": "^2.2.1",
+    "next-plugin-svgr": "^1.1.2",
+    "next-secure-headers": "^2.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@kasey-turbo/eslint-config": "*",
+    "@kasey-turbo/tsconfig": "*",
+    "@kasey-turbo/ui-library": "*",
+    "@types/node": "^17.0.12",
+    "@types/react": "17.0.37",
+    "eslint": "7.32.0",
+    "next-transpile-modules": "9.0.0",
+    "typescript": "^4.5.3"
+  }
+}

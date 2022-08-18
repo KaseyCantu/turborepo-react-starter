@@ -4,8 +4,8 @@
   "packageManager": "yarn@3.2.2",
   "version": "0.0.0",
   "workspaces": [
-    "packages/*",
-    "apps/*"
+    "apps/*",
+    "libs/*"
   ],
   "scripts": {
     "build": "turbo run build",

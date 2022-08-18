@@ -1,0 +1,15 @@
+.build
+dist
+.next
+node_modules
+tmp
+
+# Turborepo cache
+.turbo/
+
+# config files
+*.yaml
+*.yml
+*.md
+
+*/.eslintrc.js

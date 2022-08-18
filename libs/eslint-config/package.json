@@ -1,0 +1,33 @@
+{
+  "name": "@kasey-turbo/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@formatjs/cli": "^4.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "babel-plugin-formatjs": "^10.3.12",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-formatjs": "^2.19.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^26.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "eslint-plugin-turbo": "latest",
+    "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8",
+    "@types/prettier": "^2"
+  }
+}

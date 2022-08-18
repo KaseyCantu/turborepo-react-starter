@@ -1,0 +1,6 @@
+node_modules
+**/node_modules
+infra/apps/
+apps/web/.env*
+apps/api/.env*
+apps/api/postgres
