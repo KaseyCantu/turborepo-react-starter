@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nextjs-staging:
+    build:
+      context: ../../
+      dockerfile: docker/staging/Dockerfile
+    image: nextjs-staging
+    ports:
+      - '3002:3000'

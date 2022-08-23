@@ -5,8 +5,11 @@
   "version": "0.0.0",
   "workspaces": [
     "apps/*",
-    "libs/*"
+    "packages/*"
   ],
+  "engines": {
+    "node": "18.6.0"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --parallel --continue",
