@@ -1,4 +1,4 @@
-import App, { AppContext, AppProps } from 'next/app';
+import { AppProps } from "next/app";
 
 /**
  * The wrapper for all pages. Provides a place for site-wide functionality, such as error handling,
