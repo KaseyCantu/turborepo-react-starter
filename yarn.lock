@@ -2605,7 +2605,6 @@ __metadata:
     "@kasey-turbo/eslint-config": "*"
     "@kasey-turbo/jest-presets": "*"
     "@kasey-turbo/tsconfig": "*"
-    "@kasey-turbo/ui-library": "*"
     "@storybook/addon-a11y": ^6.4.14
     "@storybook/addon-actions": ^6.4.14
     "@storybook/addon-docs": ^6.5.10
@@ -2652,13 +2651,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@kasey-turbo/web2@workspace:apps/web2":
+"@kasey-turbo/web@workspace:apps/web":
   version: 0.0.0-use.local
-  resolution: "@kasey-turbo/web2@workspace:apps/web2"
+  resolution: "@kasey-turbo/web@workspace:apps/web"
   dependencies:
     "@kasey-turbo/ui-library": "*"
     "@types/node": ^17.0.12
     "@types/react": 17.0.37
+    dotenv: ^16.0.1
     eslint: 7.32.0
     eslint-config-next: ^12.2.5
     next: latest
@@ -2669,28 +2669,6 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     typescript: ^4.7.4
-  languageName: unknown
-  linkType: soft
-
-"@kasey-turbo/web@workspace:apps/web":
-  version: 0.0.0-use.local
-  resolution: "@kasey-turbo/web@workspace:apps/web"
-  dependencies:
-    "@kasey-turbo/eslint-config": "*"
-    "@kasey-turbo/tsconfig": "*"
-    "@kasey-turbo/ui-library": "*"
-    "@types/node": ^17.0.12
-    "@types/react": 17.0.37
-    eslint: 7.32.0
-    eslint-config-next: ^12.2.5
-    next: ^12.2.5
-    next-compose-plugins: ^2.2.1
-    next-plugin-svgr: ^1.1.2
-    next-secure-headers: ^2.2.0
-    next-transpile-modules: 9.0.0
-    react: 17.0.2
-    react-dom: 17.0.2
-    typescript: ^4.5.3
   languageName: unknown
   linkType: soft
 
@@ -8231,6 +8209,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.0.1":
+  version: 16.0.1
+  resolution: "dotenv@npm:16.0.1"
+  checksum: f459ffce07b977b7f15d8cc4ee69cdff77d4dd8c5dc8c85d2d485ee84655352c2415f9dd09d42b5b5985ced3be186130871b34e2f3e2569ebc72fbc2e8096792
+  languageName: node
+  linkType: hard
+
 "dotenv@npm:^8.0.0":
   version: 8.6.0
   resolution: "dotenv@npm:8.6.0"
@@ -12424,6 +12409,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.19.0
     "@typescript-eslint/parser": ^5.33.0
     babel-plugin-formatjs: ^10.3.12
+    dotenv: ^16.0.1
     eslint: ^8.15.0
     eslint-config-next: ^12.0.8
     eslint-config-prettier: ^8.3.0
@@ -13547,7 +13533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^12.2.5, next@npm:latest":
+"next@npm:latest":
   version: 12.2.5
   resolution: "next@npm:12.2.5"
   dependencies:
@@ -15130,7 +15116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:17.0.2, react-dom@npm:^17.0.2":
+"react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -15229,7 +15215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2, react@npm:^17.0.2":
+"react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:

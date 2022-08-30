@@ -52,7 +52,6 @@
   },
   "dependencies": {
     "@babel/core": "^7.18.10",
-    "@kasey-turbo/ui-library": "*",
     "@storybook/addon-a11y": "^6.4.14",
     "@storybook/addon-actions": "^6.4.14",
     "@storybook/addon-docs": "^6.5.10",

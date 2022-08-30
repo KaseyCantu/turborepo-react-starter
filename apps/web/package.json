@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@kasey-turbo/ui-library": "*",
+    "dotenv": "^16.0.1",
     "eslint-config-next": "^12.2.5",
     "next": "latest",
     "next-compose-plugins": "^2.2.1",

@@ -41,5 +41,8 @@
     "eslint-plugin-turbo": "latest",
     "prettier": "^2.5.1",
     "turbo": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
   }
 }
