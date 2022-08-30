@@ -1,7 +1,11 @@
 import Head from 'next/head'
+
+import getConfig from '../config';
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const config = getConfig();
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +18,7 @@ export default function Home() {
           Welcome KC to <a href="https://nextjs.org">Next.js</a> on Docker!
         </h1>
         <h2 className={styles.title}>with Multiple Deployment Environments</h2>
-        <h3>API_URL: {process.env.NEXT_PUBLIC_API_URL}</h3>
+        <h3>API_URL: {config.publicRuntimeConfig.canonicalUrl}</h3>
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>

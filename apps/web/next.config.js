@@ -5,6 +5,6 @@ module.exports = withTM({
   reactStrictMode: true,
   output: "standalone",
   experimental: {
-    outputFileTracingRoot: path.join(__dirname, "../../"),
-  },
+    outputFileTracingRoot: path.join(__dirname, "../../")
+  }
 });
