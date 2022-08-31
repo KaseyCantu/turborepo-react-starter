@@ -1,12 +1,6 @@
 // Third Party
 import getConfig from 'next/config';
 
-// Data
-
-// Utils
-
-// UI
-
 /** Only available on the Server */
 // type ServerRuntimeConfig = {}
 
