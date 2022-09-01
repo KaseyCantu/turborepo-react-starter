@@ -1,5 +1,5 @@
 # 1. Install dependencies only when needed
-FROM node:16-alpine AS deps
+FROM node:18.6.0-alpine AS deps
 ENV NODE_ENV=development
 # Check https://github.com/nodejs/docker-node/tree/b4117f9333da4138b03a546ec926ef50a31506c3#nodealpine to understand why libc6-compat might be needed.
 RUN apk add --no-cache libc6-compat
@@ -16,8 +16,8 @@ RUN \
   fi
 
 # 2. Rebuild the source code only when needed
-
 COPY . .
+
 # This will do the trick, use the corresponding env file for each environment.
 COPY ../../environment/development/.env.development .env.development
 

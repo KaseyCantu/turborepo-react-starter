@@ -1,5 +1,8 @@
 import { AppProps } from "next/app";
 
+// CSS
+import '../styles/globals.css';
+
 /**
  * The wrapper for all pages. Provides a place for site-wide functionality, such as error handling,
  * persisting data, maintaining state between pages, etc.

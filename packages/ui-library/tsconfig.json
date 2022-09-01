@@ -3,7 +3,9 @@
   "display": "UI Library",
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "jsx": "react",
+    "types": ["vite/client", "@emotion/react/types/css-prop"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "declaration": true,
     "declarationMap": true,
     "outDir": "dist",
@@ -19,6 +21,7 @@
   },
   "include": [
     "src/**/*.ts",
+    "src/**/*.tsx",
     "src/**/*.tsx",
     "src/**/*.d.ts"
   ],

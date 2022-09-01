@@ -12,8 +12,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
     "@kasey-turbo/ui-library": "*",
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "eslint-config-next": "^12.2.5",
     "next": "latest",
     "next-compose-plugins": "^2.2.1",
@@ -23,6 +24,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.2",
+    "@emotion/eslint-plugin": "^11.10.0",
     "@types/node": "^17.0.12",
     "@types/react": "17.0.37",
     "eslint": "7.32.0",

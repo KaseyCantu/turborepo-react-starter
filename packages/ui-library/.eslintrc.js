@@ -20,6 +20,7 @@ module.exports = {
       },
       plugins: [
         '@typescript-eslint',
+        '@emotion',
         'formatjs',
         'jest',
         'jsx-a11y',
@@ -38,6 +39,8 @@ module.exports = {
         'plugin:react/recommended',
       ],
       rules: {
+        '@emotion/jsx-import': 'error',
+        '@emotion/pkg-renaming': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unsafe-assignment': 'off',
         '@typescript-eslint/no-unsafe-return': 'off', // buggy.
