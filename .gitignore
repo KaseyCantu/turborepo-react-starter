@@ -552,3 +552,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+# Storybook static build directory
+storybook-static/
